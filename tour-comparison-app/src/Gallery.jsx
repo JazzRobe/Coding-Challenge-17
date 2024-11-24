@@ -7,6 +7,9 @@ const Gallery = () => {
     //initializing states to be able to manage api data
 
     useEffect(() => {
+        setError(false);
+        setLoading(true);
+        //set initial error and loading states to reset
         const fetchTours = async () => {
             try {
                 const response = await fetch("https://course-api.com/react-tours-project");

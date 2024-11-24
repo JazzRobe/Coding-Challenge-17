@@ -9,7 +9,7 @@ function App() {
     </div>
   );
 };
-//acting as a container for the gallery/its functions.
-//initializes
+//acting as a container for the gallery/its functions
+//initialize
 
 export default App;
